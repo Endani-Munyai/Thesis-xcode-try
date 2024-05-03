@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74AF2B302BA4C2D400CDD241 /* graph adjacency matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 74AF2B2F2BA4C2D400CDD241 /* graph adjacency matrix.c */; };
+		74AF2B332BA7C00A00CDD241 /* products.c in Sources */ = {isa = PBXBuildFile; fileRef = 74AF2B322BA7C00A00CDD241 /* products.c */; };
 		74DE2E032B98CAFB00D95C83 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 74DE2E022B98CAFB00D95C83 /* main.c */; };
+		74DE2E122B9B6FA900D95C83 /* graph original adjacency list.c in Sources */ = {isa = PBXBuildFile; fileRef = 74DE2E112B9B6FA900D95C83 /* graph original adjacency list.c */; };
+		74F49CFC2BB463BD00A36CFB /* diagnostic.c in Sources */ = {isa = PBXBuildFile; fileRef = 74F49CFB2BB463BD00A36CFB /* diagnostic.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		74AF2B2E2BA4C2D400CDD241 /* graph adjacency matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "graph adjacency matrix.h"; sourceTree = "<group>"; };
+		74AF2B2F2BA4C2D400CDD241 /* graph adjacency matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "graph adjacency matrix.c"; sourceTree = "<group>"; };
+		74AF2B312BA7C00900CDD241 /* products.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = products.h; sourceTree = "<group>"; };
+		74AF2B322BA7C00A00CDD241 /* products.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = products.c; sourceTree = "<group>"; };
 		74DE2DFF2B98CAFB00D95C83 /* Thesis xcode try */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Thesis xcode try"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74DE2E022B98CAFB00D95C83 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		74DE2E022B98CAFB00D95C83 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; usesTabs = 1; };
+		74DE2E102B9B6FA900D95C83 /* graph original adjacency list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "graph original adjacency list.h"; sourceTree = "<group>"; };
+		74DE2E112B9B6FA900D95C83 /* graph original adjacency list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "graph original adjacency list.c"; sourceTree = "<group>"; };
+		74F49CFA2BB463BC00A36CFB /* diagnostic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diagnostic.h; sourceTree = "<group>"; };
+		74F49CFB2BB463BD00A36CFB /* diagnostic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = diagnostic.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				74DE2E022B98CAFB00D95C83 /* main.c */,
+				74DE2E102B9B6FA900D95C83 /* graph original adjacency list.h */,
+				74DE2E112B9B6FA900D95C83 /* graph original adjacency list.c */,
+				74AF2B2E2BA4C2D400CDD241 /* graph adjacency matrix.h */,
+				74AF2B2F2BA4C2D400CDD241 /* graph adjacency matrix.c */,
+				74AF2B312BA7C00900CDD241 /* products.h */,
+				74AF2B322BA7C00A00CDD241 /* products.c */,
+				74F49CFA2BB463BC00A36CFB /* diagnostic.h */,
+				74F49CFB2BB463BD00A36CFB /* diagnostic.c */,
 			);
 			path = "Thesis xcode try";
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74DE2E032B98CAFB00D95C83 /* main.c in Sources */,
+				74DE2E122B9B6FA900D95C83 /* graph original adjacency list.c in Sources */,
+				74F49CFC2BB463BD00A36CFB /* diagnostic.c in Sources */,
+				74AF2B332BA7C00A00CDD241 /* products.c in Sources */,
+				74AF2B302BA4C2D400CDD241 /* graph adjacency matrix.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
